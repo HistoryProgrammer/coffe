@@ -1,0 +1,104 @@
+/* NAVIGATION */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 6px;
+    padding-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+/* HOME SECTION */
+#home{
+    height: 500px;
+    padding: 3px 50px;
+}
+
+#home::before{
+    height: 600px;
+}
+#home p{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SERVICES SECTION */
+#services{
+    flex-direction: column;
+    margin: 15px;
+   
+}
+#services .box img{
+    height: 125px;
+
+   
+    }
+
+
+
+
+
+
+
+
+/* NEWS SECTION */
+#news{
+    height: auto;
+    width: auto;
+}
+#news1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+ }
+
+.box2{
+    width: auto;
+    display: block;
+    width: 180px;
+}
+.box2 img{  
+    height: 110px;
+    }
+
+
+
+/* CONTACT US SECTION */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+/* UTILITY CLASSES */
+.baslik{
+    font-size: 37px;
+}
+.btn{
+    font-size: 10px;
+    padding: 5px 10px;
+}
